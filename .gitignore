@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+
+# Secrets / local env
+.env
+.env.*
+backend/.env
+frontend/.env
+*.db
+
+# Data artifacts
+backend/data/raw/*.jsonl
+backend/data/raw/**/*.webp
+backend/data/normalized/*.jsonl
+backend/data/normalized/*.csv
+backend/data/training/*.csv
+backend/data/model/*.joblib
+backend/data/model/*.json
+backend/data/snapshots/*
+backend/data/archive/*
+!backend/data/**/.gitkeep
+
+# Local agent runtime state
+.agents/skills/xiaohongshu-mcp/.clawhub/
+.agents/skills/xiaohongshu-mcp/cookies.json
+.agents/skills/xiaohongshu-mcp/mcp.log
+.agents/skills/xiaohongshu-mcp/cron_tasks.json
+.agents/skills/xiaohongshu-mcp/data/cookies.json
+.agents/skills/xiaohongshu-mcp/data/new_post.json
+.agents/skills/xiaohongshu-mcp/data/new_post_draft.md
+.agents/skills/xiaohongshu-mcp/data/post_history.json
+
+# OS
+.DS_Store
+
+# IDE
+.idea/

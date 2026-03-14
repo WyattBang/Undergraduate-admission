@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "xiaohongshu-mcp": {
+      "source": "tclawde/xiaohongshu-mcp-skill",
+      "sourceType": "github",
+      "computedHash": "d282a27f884e1ecac49cb5aee57de09155e760a4fb7d85d0bf7fbe7e1cc0e946"
+    }
+  }
+}
